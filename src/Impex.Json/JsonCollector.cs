@@ -6,6 +6,4 @@ public class JsonCollector
     {
         return new CollectedJson();
     }
-    
-    
 }

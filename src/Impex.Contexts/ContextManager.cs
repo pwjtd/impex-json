@@ -15,7 +15,7 @@ public class ContextManager
 
     public void RegisterContext(string contextName, CollectedJson collectedJson)
     {
-        var contextToAdd = Context.Create(contextName, collectedJson);
+        var contextToAdd = Context.Create(contextName);
         Contexts.Add(contextToAdd);
     }
 
