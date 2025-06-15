@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C95FB21-85C6-49F5-8153-C56D78FEF3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impex.Api", "src\Impex.Api\Impex.Api.csproj", "{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{8A36D555-76EA-44D3-B862-A47F771C0024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPollen", "..\JPollen\src\JPollen\JPollen.csproj", "{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6} = {6C95FB21-85C6-49F5-8153-C56D78FEF3B2}
+		{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4} = {8A36D555-76EA-44D3-B862-A47F771C0024}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE67BFD4-9F0D-4D3E-8093-507DC804D5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752FD80A-1C3F-47AB-B4A2-4D61E3FC60C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
